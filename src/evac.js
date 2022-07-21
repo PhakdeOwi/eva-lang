@@ -10,7 +10,7 @@ function interpret(code) {
         .replace(/\$(.*)\s*=\s*(.*)/gim, "var $1 = $2")
         .replace(/#\s*(.*)/gim, "// $1")
         .replace(/from\s+(.*)\s+import\s+(.*)/gim, "const { $2 } = require('$1')")
-        .replace(/pubmodule\s+(.*)/gim, "module.exports = $1")
+        .replace(/pubmodule\s+(.*)/gim, "module.exports = {\n$1\n}")
         .replace(/(.*).count/gim, "$1.length")
         .replace(/(.*).eq\s*\(\s*(.*)\s*\)/gim, "$1 === $2")
         .replace(/if\s+(.*)\s*\{\s*(.*)\s*\}/gim, "if ($1) {\n$2\n}")
