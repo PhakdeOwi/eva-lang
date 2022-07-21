@@ -1,0 +1,27 @@
+{
+  "name": "colorfull",
+  "description": "color your program",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pasha1110/colofull.git"
+  },
+  "keywords": [
+    "cli",
+    "color",
+    "terminal",
+    "style",
+    "rainbow",
+    "creative"
+  ],
+  "author": "erlangga",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pasha1110/colorfull/issues"
+  },
+  "homepage": "https://github.com/pasha1110/colorfull#readme"
+}
