@@ -1,4 +1,5 @@
 const fs = require("fs")
+const format = require("./format")
 
 function interpret(code) {
     return code
@@ -29,7 +30,7 @@ fs.readFile(file, {
 }, (err, data) => {
     if (err) throw err;
 
-    fs.writeFile(out, interpret(data), () => {
+    fs.writeFile(out, format(interpret(data)), () => {
         console.log("succes");
     })
 })

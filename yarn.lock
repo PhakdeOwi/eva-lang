@@ -11,3 +11,8 @@ myosis@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/myosis/-/myosis-1.0.0.tgz#f54b2c0b377e9e607a8a7f3af7b91bf6685286a4"
   integrity sha512-bUK2PW+QIIFNnsDO2+B6IZCr8jbsCHMgW83WqEOkj099q6JTMjRB2k8UxpzOPn94EiO3Dn6tGMPQPRdYI1fGPw==
+
+prettier@^2.7.1:
+  version "2.7.1"
+  resolved "https://registry.yarnpkg.com/prettier/-/prettier-2.7.1.tgz#e235806850d057f97bb08368a4f7d899f7760c64"
+  integrity sha512-ujppO+MkdPqoVINuDFDRLClm7D78qbDt0/NR+wp5FqEZOoTNAjPHWj17QRhu7geIHJfcNhRk1XVQmF8Bp3ye+g==
